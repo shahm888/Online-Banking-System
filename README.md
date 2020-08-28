@@ -1,14 +1,17 @@
 # OnlineBankingSystem
 Online banking Service Project
+
 What services are being provided?
 Ans: In Online banking service, it provides services like login, create new users, Perform banking chores
 like Deposit, transfer and view transfer summary.
-Who are the intended users for your project?
+
+Who are the intended users for this project?
 Ans: Users for this project are anyone who wants to use banking services like deposit money and
 transfer fund to another account & watch overall transfer performed.
-What URLs will a user start with to use your application?
+
+What URLs will a user start with to use this provided application?
 Ans: http://localhost:8080/onlinebankingsystem/login.jsp
-What are your database tables?
+
 Ans: There are 4 tables used here:
 Login: (username, password) – this will store the login details of the customers.
 Customer: (Account No., Name, Address, Phone No., Date of Birth, Email, SSN, username)
@@ -16,8 +19,9 @@ This will store the customer’s personal details.
 Account: (Account No, Balance) : This will store the customer’s account, current balance details.
 Transaction: (Transaction ID, Date, Amount, Type, To, From)
 This will store all the transaction details for all customers.
-Include at least one example of how you used the Model-View-Controller design pattern.
-Ans: The whole project is performed using MVC- Model-View-Controller design pattern, one of the
+
+Here, is the example of how i used MVC model for my application.
+The whole project is performed using MVC- Model-View-Controller design pattern, one of the
 example, let says create new user.
 I have created “register.jsp” as the View, which will take inputs from users and when users clicks
 “create” button, It will transfer all the user inputs to servlet “LoginRegister.java” in servlet domain. Here
@@ -29,6 +33,7 @@ Once all the user inputs are validated, Controller (“LoginRegister.java”) wi
 Model(CustomerDB.java) and that will insert the new customer in Customer database. On successful
 insertion, Model will send positive response to Controller and controller will redirect page to login with
 Success message. Now the new user can proceed with login.
+
 Mention any optional, advanced features, you are using, such as describe what data your web service
 provides and what servlet performs the service or where you used the Post-Redirect-Get pattern.
 Ans: Web Contents:
