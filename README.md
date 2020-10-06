@@ -1,12 +1,10 @@
 # OnlineBankingSystem
 Online banking Service Project
 
-What services are being provided?
-Ans: In Online banking service, it provides services like login, create new users, Perform banking chores
+ In Online banking service, it provides services like login, create new users, Perform banking chores
 like Deposit, transfer and view transfer summary.
 
-Who are the intended users for this project?
-Ans: Users for this project are anyone who wants to use banking services like deposit money and
+Intende user of the project are anyone who wants to use banking services like deposit money and
 transfer fund to another account & watch overall transfer performed.
 
 What URLs will a user start with to use this provided application?
